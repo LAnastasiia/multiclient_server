@@ -2,9 +2,18 @@
 #ifndef EXAM_SERVICES_H
 #define EXAM_SERVICES_H
 
-std::string construct_greeting();
+#include <string>
+#include <chrono>
+#include <iostream>
+#include <chrono>
+#include <iomanip>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 
-char* get_time_str();
+
+std::string get_greeting();
+
+int get_time_str(char *time_str);
 
 
 #endif //EXAM_SERVICES_H
